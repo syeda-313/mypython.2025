@@ -1,0 +1,12 @@
+class syeda:
+  def __init__(self):
+    self.public = "brillant"
+    self.__private="fantastic"
+  def asima__private(self):
+    print(self.__private)
+asima= syeda()
+print(asima.public)
+asima.asima__private()
+# output
+brillant
+fantastic
