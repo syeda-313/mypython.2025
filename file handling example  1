@@ -1,0 +1,17 @@
+a = open("/content/sample_data/anscombe.json","r")
+content= a.read()
+print(content)
+a.close()
+# output
+  {"Series":"I", "X":10.0, "Y":8.04},
+  {"Series":"I", "X":8.0, "Y":6.95},
+  {"Series":"I", "X":13.0, "Y":7.58},
+  {"Series":"I", "X":9.0, "Y":8.81},
+  {"Series":"I", "X":11.0, "Y":8.33},
+  {"Series":"I", "X":14.0, "Y":9.96},
+  {"Series":"I", "X":6.0, "Y":7.24},
+  {"Series":"I", "X":4.0, "Y":4.26},
+  {"Series":"I", "X":12.0, "Y":10.84},
+  {"Series":"I", "X":7.0, "Y":4.81},
+  {"Series":"I", "X":5.0, "Y":5.68},
+
