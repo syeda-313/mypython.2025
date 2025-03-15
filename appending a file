@@ -1,0 +1,7 @@
+
+a = open("/content/sample_data/anscombe.json","a")
+content= a.write("hello world")
+print(content)
+a.close()
+# output:
+11
