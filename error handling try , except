@@ -1,0 +1,11 @@
+try:
+  num=int(input("enter a number:"))
+  print(10/num)
+except ZeroDivisionError:
+    print("you can divide by zero:")
+except ValueError:
+    print("invalid input!please enter a number")
+    print("invalid input!please enter a number")
+# output
+enter a number:12
+0.8333333333333334
