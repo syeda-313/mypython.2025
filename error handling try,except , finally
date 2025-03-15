@@ -1,0 +1,9 @@
+try:
+  File= open("/content/sample_data/anscombe.json","r")
+except FileNotFoundError:
+     print("file not found")
+finally :
+      print("execution complete")
+
+# output:
+execution 
