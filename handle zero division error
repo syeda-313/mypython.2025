@@ -1,0 +1,10 @@
+try:
+  num1 = int(input("enter number"))
+  print(10/num1)
+except ZeroDivisionError:
+    print("cannot divide by zero")
+except ValueError :
+    print("can divide by zero")
+# output
+enter number: 0
+cannot divide by 10
