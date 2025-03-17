@@ -1,0 +1,10 @@
+import os
+try:
+  a=open("document.txt")
+except FileNotFoundError:
+    print("file does not exists")
+if os.path.exists("document.txt"):
+   print("file exists")
+
+# output
+  file does not exists
