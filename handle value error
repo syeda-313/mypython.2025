@@ -1,0 +1,8 @@
+try:
+  num = int(input("enter a number"))
+  print(10/num)
+except ValueError:
+  print("cannot divide by zero")    
+    #output
+    enter a number12
+0.8333333333333334
